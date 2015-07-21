@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <me.chaoyang805.luckywheel.LuckyWheel
+        android:id="@+id/lucky_wheel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:padding="30dp">
+    </me.chaoyang805.luckywheel.LuckyWheel>
+    <ImageView
+        android:id="@+id/ivToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/start"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
